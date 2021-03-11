@@ -18,7 +18,7 @@ resources. Therefore you must first apply the Terraform code using
 programmatic credentials for AWSAdministratorAccess as obtained for the
 COOL Domain Manager account from the COOL AWS SSO page.
 
-After this initial apply your desired IAM role will exist, and it will
+After this initial apply, your desired IAM role will exist, and it will
 be assumable from your IAM user that exists in the COOL users
 account. Therefore you can apply future changes using your IAM user
 credentials.
