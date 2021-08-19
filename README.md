@@ -33,7 +33,7 @@ To do this bootstrapping, follow these steps:
    credentials (access key ID, secret access key, and session token)
    as obtained from the COOL Domain Manager account:
 
-   ```console
+   ```ini
    [cool-domain-manager-account-admin]
    aws_access_key_id = <MY_ACCESS_KEY_ID>
    aws_secret_access_key = <MY_SECRET_ACCESS_KEY>
@@ -45,7 +45,7 @@ To do this bootstrapping, follow these steps:
 1. Create a `<workspace_name>.tfvars` file with all of the required
    variables (see [Inputs](#Inputs) below for details):
 
-   ```console
+   ```hcl
    users_account_id = "222222222222"
    ```
 
@@ -75,7 +75,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| provisionaccount | github.com/cisagov/provisionaccount-role-tf-module |  |
+| provisionaccount | github.com/cisagov/provisionaccount-role-tf-module | n/a |
 
 ## Resources ##
 
